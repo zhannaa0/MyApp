@@ -21,9 +21,9 @@ mongoose.connect("mongodb+srv://zhanna14:zhanna123@cluster0.4ow5nxc.mongodb.net/
 
 const authenticateUser = (req, res, next) => {
     if (req.session.user) {
-        next(); // User is authenticated, proceed to the next middleware
+        next(); 
     } else {
-        res.redirect('/login'); // User is not logged in, redirect to the login page
+        res.redirect('/login'); 
     }
 };
 
