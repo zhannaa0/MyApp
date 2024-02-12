@@ -27,6 +27,7 @@ My app provides 4 different APIs:
 2) Cat generator - get random cat image
 3) NASA APOD (astronomy picture of the day)
 4) Openweather - for fetching weather (it was from prev assignment)
+   
 User can download pdf file with api history (pdfRouter)
 
 All of the APIs are firstly saved in my altas, then from atlas retrieving to my EJS.
